@@ -1,0 +1,3 @@
+[submodule "plugins/common"]
+	path = plugins/common
+	url = git@github.com:hanhathuy2612/common.git
