@@ -34,4 +34,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: build
-        run: docker build -f action-demo/Dockerfile -t hello-world:latest .
+        run: docker build -f ./action-demo/Dockerfile -t hello-world:latest .
