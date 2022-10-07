@@ -30,3 +30,8 @@ jobs:
         distribution: 'temurin'
     - name: Build with Gradle
       run: ./gradlew clean build
+  build-docker:
+    runs-on: ubuntu-latest
+    steps:
+      - name: build
+        run: docker build my-image:latest .
