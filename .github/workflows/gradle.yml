@@ -21,6 +21,7 @@ jobs:
     steps:
     - uses: actions/checkout@v3
       with:
+        url: git@github.com:hanhathuy2612/common.git
         ref: develop
         token: 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
         submodules: true
