@@ -15,7 +15,8 @@ on:
 
 permissions:
   contents: read
-
+env:
+  GIT_TERMINAL_PROMPT: https://github.com/hanhathuy2612/github-action-example.git
 jobs:
   build:
 
